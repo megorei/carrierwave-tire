@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["dieter.pisarewski@gmail.com"]
   spec.description   = %q{Adapter for Tire::Persistence Model which allows to use CarrierWave in the usual way}
   spec.summary       = %q{Adapter for Tire::Persistence Model which allows to use CarrierWave in the usual way}
-  spec.homepage      = "megorei.com"
+  spec.homepage      = "http://www.megorei.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

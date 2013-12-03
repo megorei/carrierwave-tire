@@ -1,4 +1,4 @@
-carrierwave_tire
+carrierwave-tire
 ================
 
 Tire (elasticsearch) support for CarrierWave

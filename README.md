@@ -6,7 +6,7 @@ This gem provides [CarrierWave](https://github.com/carrierwaveuploader/carrierwa
 
 Add this line to your application's Gemfile:
 
-    gem 'carrierwave-tire'
+    gem 'carrierwave-tire', git: "git@github.com:megorei/carrierwave-tire.git"
 
 And then execute:
 

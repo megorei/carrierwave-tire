@@ -43,7 +43,7 @@ module CarrierWave
             super
             _mounter(:#{column}).remove = true
             _mounter(:#{column}).write_identifier
-            FileUtils.rm_rf File.dirname(image.file.path)
+            FileUtils.rm_rf File.dirname(image.file.path) if image.file.present?
           end
 
           def serializable_hash(options=nil)
